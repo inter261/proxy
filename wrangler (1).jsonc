@@ -1,0 +1,15 @@
+{
+  "name": "proxy-bot",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-16",
+  "observability": {
+    "enabled": true,
+    "traces": { "enabled": true }
+  },
+  "kv_namespaces": [
+    { "binding": "PROXY_KV", "id": "GANTI_DENGAN_ID_KV" }
+  ],
+  "triggers": {
+    "crons": ["0 */3 * * *"]
+  }
+}
