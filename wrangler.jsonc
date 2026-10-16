@@ -7,7 +7,7 @@
     "traces": { "enabled": true }
   },
   "kv_namespaces": [
-    { "binding": "PROXY_KV", "id": "GANTI_DENGAN_ID_KV" }
+    { "binding": "PROXY_KV", "id": "aa729e2c97f540098302ca6d2361a0b2" }
   ],
   "triggers": {
     "crons": ["0 */3 * * *"]
